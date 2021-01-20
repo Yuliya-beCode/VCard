@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://www.jamesgmartin.center/wp-content/uploads/2017/09/Fotolia_169539793_Subscription_Monthly_M-1200x840.jpg);
+    display: grid;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #foto {
+      border-radius: 20%;
+  }
+
+  h1{
+      color: black;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-auto-rows: 3fr ;
+    background-color: rgb(185, 146, 134);
+    border-radius: 40px;
+    max-width: 600px;
+    height: 200px;
+    margin: 40px auto 0;
+  }
+
+  section p {
+     grid-column-start: 2;
+     color: black;
+     text-align: center;
+  }
