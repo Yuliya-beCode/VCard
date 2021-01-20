@@ -20,4 +20,6 @@ Optional
     add a background image
 
     add gradients instead of a color pallet
+    
+    Link to my [VCard](https://yuliya-becode.github.io/VCard/.)
 
